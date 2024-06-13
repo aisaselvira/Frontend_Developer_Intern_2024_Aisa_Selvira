@@ -34,9 +34,9 @@ const Header = () => {
 
   return (
     <header className={`fixed w-full top-0 bg-orange-500 transition-all duration-300 ${hidden ? '-top-20' : 'top-0'} z-50`}>
-      <nav className="flex justify-between items-center p-4 mx-20 font-sans text-2xl">
+      <nav className="flex justify-between items-center p-4 mx-20 font-sans text-xl">
         <div className="flex items-center">
-          <img src={logo} alt="Suitmedia Logo" className="h-8" style={{ maxWidth: '200px', height: 'auto' }} />
+          <img src={logo} alt="Suitmedia Logo" className="h-8" style={{ maxWidth: '140px', height: 'auto' }} />
         </div>
         <div className="hidden lg:flex space-x-4 text-white">
           <a href="#work" className={`block cursor-pointer mb-2 ${isActive('#work') ? 'border-b-2 border-white' : ''}`}>Work</a>
